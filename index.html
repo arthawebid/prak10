@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Componen Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style type="text/css">
+            body{
+                background-color: black;
+                text-align: center;
+            }
+            .center {margin: auto;width: 50%;padding: 10px;}
+            h1{font-family: cursiva; color:white; font-weight: bold;}
+            .judul{
+                margin-top: 80px;
+                margin-bottom: 0px;
+                text-shadow: 1px 1px grey;
+            }
+            .host{
+                height: 50px;
+                width: 150px;
+                background-color: green;
+                text-shadow: 1px 1px grey;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contaner">
+            <div class="content">
+                <div class="judul center">
+                    <h1>Bootstrap 5 Components</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" id="Accordion" class="btn btn-success host">Accordion</button>
+                        <button type="button" id="Alert" class="btn btn-success host">Alert</button>
+                        <button type="button" id="Badge" class="btn btn-success host">Badge</button>
+                        <button type="button" id="Breadcrumb" class="btn btn-success host">Breadcrumb</button>
+                        <button type="button" id="Buttons" class="btn btn-success host">Buttons</button>
+                        <button type="button" id="ButtonGroup" class="btn btn-success host">Buttons Group</button>
+                        <button type="button" id="Card" class="btn btn-success host">Card</button>
+                        <button type="button" id="Carousel" class="btn btn-success host">Carousel</button>
+                        <button type="button" id="CloseButton" class="btn btn-success host">Close Button</button>
+                        <button type="button" id="Collapse" class="btn btn-success host">Collapse</button>
+                        <button type="button" id="Dropdowns" class="btn btn-success host">Dropdowns</button>
+                        <button type="button" id="ListGroup" class="btn btn-success host">List Group</button>
+                        <button type="button" id="Modal" class="btn btn-success host">Modal</button>
+                        <button type="button" id="Navstabs" class="btn btn-success host">Navs & tabs</button>
+                        <button type="button" id="Navbar" class="btn btn-success host">Navbar</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#Accordion").click(function(){
+                    window.open("accordion.html","#Accordion");
+                });
+                $("#Alert").click(function(){
+                    window.open("alert.html","#Alert");
+                });
+                $("#Badge").click(function(){
+                    window.open("badge.html","#Badge");
+                });
+                $("#Breadcrumb").click(function(){
+                    window.open("breadcrumb.html","#Breadcrumb");
+                });
+                $("#Buttons").click(function(){
+                    window.open("buttons.html","#Buttons");
+                });
+                $("#ButtonGroup").click(function(){
+                    window.open("buttongroup.html","#ButtonGroup");
+                });
+                $("#Card").click(function(){
+                    window.open("card.html","#Card");
+                });
+                $("#Carousel").click(function(){
+                    window.open("carousel.html","#Carousel");
+                });
+                $("#CloseButton").click(function(){
+                    window.open("closebutton.html","#CloseButton");
+                });
+                $("#Collapse").click(function(){
+                    window.open("collapse.html","#Collapse");
+                });
+                $("#Dropdowns").click(function(){
+                    window.open("dropdowns.html","#Dropdowns");
+                });
+                $("#ListGroup").click(function(){
+                    window.open("listGroup.html","#ListGroup");
+                });
+                $("#Modal").click(function(){
+                    window.open("modal.html","#Modal");
+                });
+                $("#Navstabs").click(function(){
+                    window.open("navstabs.html","#Navstabs");
+                });
+                $("#Navbar").click(function(){
+                    window.open("navbar.html","#Navbar");
+                });
+            });
+        </script>    
+    </body>
+</html>
